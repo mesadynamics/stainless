@@ -1,0 +1,43 @@
+"NewTab" = "New Tab";
+"PageError" = "Page loading error";
+"OpenNewTab" = "Open Link in New Tab";
+"OpenNewWindow" = "Open Link in New Window";
+"OpenDefault" = "Open Link in Default Browser";
+"CopyImageLink" = "Copy Image Link";
+"SearchIn" = "Search in";
+"Google" = "Google";
+"PrivateMode" = "Private Browsing";
+
+"ShelfHelp" = "Drag and drop tab icons to add bookmarks to shelf";
+
+"JavaScript" = "JavaScript";
+"Yes" = "Yes";
+"No" = "No";
+"OK" = "OK";
+"Cancel" = "Cancel";
+"Continue" = "Continue";
+
+"ServerCertificateErrorTitle" = "Secure Connection to %@ Failed";
+"ServerCertificateErrorMessage" = "The security certificate for this website is invalid.  This could be a problem with the server's configuration, or it could be someone trying to impersonate the server.\
+\
+Do you want to connect to the website anyway?";
+
+"SearchNoMatches" = "Not found";
+"SearchMatch" = "match";
+"SearchMatches" = "matches";
+"SearchManyMatches" = "More than 100 matches";
+
+"CloseTitle" = "Confirm Close";
+"CloseOK" = "Close";
+"CloseCancel" = "Don't Close";
+"CloseMessage" = "This window contains multiple tabs which will close with this window.  Are you sure you want to close this window?";
+
+"QuitTitle" = "Confirm Keyboard Quit";
+"QuitOK" = "Quit";
+"QuitCancel" = "Don't Quit";
+"QuitMessage" = "All tabs and windows will be closed immediately.  Are you sure you want to quit?";
+
+"DeleteTitle" = "Confirm Delete";
+"DeleteOK" = "Delete";
+"DeleteCancel" = "Don't Delete";
+"DeleteMessage" = "This group may contain bookmarks which will be deleted with this group.  Are you sure you want to delete this group?";

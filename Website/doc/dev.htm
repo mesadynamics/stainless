@@ -1,0 +1,223 @@
+<html>
+
+<head>
+<title>Stainless - Development Builds</title>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+</head>
+
+<body>
+<p align="left">
+<img border="0" src="../Media/icon128.png">
+</p
+
+          
+	<span style="font-family: 'LucidaGrande', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 12px;">
+	<h3>Stainless Development Builds</h3>
+
+
+<p>We're making development builds available here to satisfy a popular request from our more adventurous users.  Please let us know if you find any regressions or new bugs (though do keep in mind that new features may only be partially implemented).</p>
+
+<i>version 0.7.5w21</i><br />
+	<ul>
+	<li>added: swipe gesture left/right for back/forward
+</li>
+	<li>fixed: some dynamic pages display disabled stop button instead of reload</li>
+	<li>fixed: link middle-click no longer works (w19)
+	<li>fixed: help menu is broken (removed due to incompatability with multi-processing)
+</li>
+	</ul>
+	
+<i>version 0.7.5w20</i><br />
+	<ul>
+	<li>added: tab from autocomplete row selects URL for editing</li>
+	<li>fixed: file URLs not launchable from bookmark shelf</li>
+	<li>fixed: closed utility windows may reappear on app activation (w19)
+</li>
+
+	</ul>
+
+<i>version 0.7.5w19 </i><br />
+	<ul>
+	<li>optimized: new multi-process manager w/ speedups under Snow Leopard</li>
+	<li>fixed: switching to Stainless from Expose does not update the menubar</li>
+	<li>fixed: escape no longer cancels page search</li>
+	<li>fixed: large favicons not sized down in bookmark shelf</li>
+	</ul>
+	
+	<i>version 0.7.5w18</i><br />
+	<ul>
+	<li>in progress: bookmark peeking (added safari support, still need to style)</li>
+	<li>fixed: search bar is offset incorrectly from top of page</li>
+	
+	</ul>
+	
+<i>version 0.7w17</i><br />
+	<ul>
+	<li>in progress: url autocompletion (added search completion)</li>
+	<li>fixed: nested group contextual menus don't work</li>
+	<li>fixed: create groups from open tabs fails when no tabs are open</li>
+	</ul>
+	
+<i>version 0.7w16</i><br />
+	<ul>
+	<li>in progress: url autocompletion</li>
+	</ul>
+			<i>version 0.6.5w15</i><br />
+	<ul>
+	<li>added: session restore startup preference</li>
+	<li>added: download location preference</li>
+	<li>added: keyboard quit confirmation preference</li>
+	<li>added: global block popup control</li>
+	<li>fixed: utility windows float over all apps</li>
+	<li>fixed: bring to front layering is not consistent</li>
+	<li>fixed: shelf autocollapse shelf preference interferes with autshow/hide shelf preference</li>
+	</ul>
+
+	<i>version 0.6.5w14r2</i><br />
+	<ul>
+	<li>fixed: grouped bookmarks opened in background open wrong URL</li>
+	</ul>
+	
+	<i>version 0.6.5w14</i><br />
+	<ul>
+	<li>fixed: spawned tabs sometimes are created with an empty shelf</li>
+	<li>fixed: open group in tabs opens wrong bookmark list</li>
+	<li>fixed: delete no longer available in group contextual menu</li>
+	<li>fixed: cross-shelf bookmark drag-and-drop moves wrong bookmark</li>
+	<li>fixed: cross-shelf bookmark drag-and-drop inserts into shifted position</li>
+	</ul>
+	
+	<i>version 0.6.5w13</i><br />
+	<ul>
+	<li>added: open group in tabs</li>
+	<li>fixed: exe cgi scripts download instead of running</li>
+	<li>fixed: javascript alert button labels incorrect</li>
+	</ul>
+	
+	<i>version 0.6.5w12</i><br />
+	<ul>
+	<li>added: create group from open tabs</li>
+	<li>added: contextual menu for download manager</li>
+	<li>fixed: center/cmd/opt clicking links in frames does not work as expected</li>
+	<li>fixed: opt-left does not go back a word in text fields (new shorcuts: cmd-opt-left to close one shelf, cmd-opt-up to close all shelves)</li>
+	</ul>
+	
+	<i>version 0.6w11</i><br />
+	<ul>
+	<li>added: download manager</li>
+	<li>fixed: command-[ does not go back a page</li>
+	<li>fixed: new windows open behind other windows</li>
+	</ul>
+	
+	<i>version 0.6w10</i><br />
+	<ul>
+	<li>in progress: download manager</li>
+	<li>added: hold and click in back/forward buttons reveal tab history</li>
+	<li>added: web inspector shortcut (opt+cmd I)</li>
+	<li>fixed: large favicons don't scale when added to shelf</li>
+	<li>fixed: closing/opening multiple groups doesn't update arrow indicators</li>
+	</ul>
+	
+	<i>version 0.6w9</i><br />
+	<ul>
+	<li>added: open bookmark shortcut (opt+shift+bookmark#)</li>
+	<li>added: close open shelf shortcut (opt+left arrow)</li>
+	<li>added: close all shelves shortcut (shift+opt+left arrow)</li>
+	<li>added: help menu (will be finished in 0.6.5)</li>
+	<li>fixed: open shelves not kept in sync across tabs in window</li>
+	<li>fixed: using modifier keys with grouped bookmarks doesn't work correctly (wrong bookmark opens) </li>
+	</ul>
+	
+	<i>version 0.6w8</i><br />
+	<ul>
+	<li>added: bookmark groups (right-click in shelf to activate)</li>
+	<li>fixed: URLs with embedded white space result in search</li>
+	</ul>
+	
+	<i>version 0.6w7</i><br />
+	<ul>
+	<li>fixed: using back/forward causes tab favicons to be lost (0.6)</li>
+	<li>fixed: ampersands not properly escaped in smartbar searches</li>
+	<li>fixed: double-click is allowed for new tab, tab close, and bookmark buttons</li>
+	<li>fixed: opening history window after midnight doesn't update the day filters</li>
+	</ul>
+	
+		<i>version 0.5.5w6</i><br />
+	<ul>
+	<li>known issue: Stainless can get into a state where tabs will no longer open, even on relaunch/reinstall</li>
+	</ul>
+	<ul>
+	<li>in progress: global history manager</li>
+	<li>added: all history view</li>
+	<li>fixed: bookmarklets execute only if Safari 4 beta is installed</li>
+	<li>fixed: process manager has a thread leak, exacerbated by using a hot spare process (w2-4)</li>
+	</ul>
+	
+	<i>version 0.5.5w5</i> <br />
+	<ul>
+	<li>in progress: global history manager</li>
+	<li>added: history filtering by day</li>
+	<li>added: history filtering by search string</li>
+	<li>added: user preference for shutting down unresponsive tabs</li>
+	<li>fixed: user agent doesn't match some sites that check for Safari (e.g. surveymonkey.com)</li>
+	<li>fixed: cookie domain security is overly strict (e.g MySpace captcha)</li>
+	<li>fixed: history tracked only if Safari 4 beta is installed (w4)</li>
+	</ul>
+	
+	<i>version 0.5.5w4</i> <br />
+	<ul>
+	<li>in progress: global history manager</li>
+	<li>added: new client process launcher</li>
+	<li>fixed: although keyboard shortcuts work, Find menu items are disabled</li>
+	<li>fixed: various quirks occur during process switching (some drawing issues remain)</li>
+	</ul>
+	
+	<i>version 0.5.4w3r2</i> <br />
+	<ul>
+		<li>fixed: bookmarks aren't being saved (r2)</li>
+		<li>optimized: stainless manager process now uses minimal CPU and memory</li>
+		<li>fixed: stainless manager process leaks, slows down ui after very long sessions</li>
+		<li>fixed: crash on new tab creation after extremely long sessions</li>
+	</ul>
+	
+	<i>version 0.5.3w2</i><br />
+	<ul>
+		<li>added: floating labels display bookmark titles</li>
+		<li>added: anchored label displays mouseover URL when status bar is hidden</li>
+		<li>added: distinct styling for single-session tabs</li>
+		<li>added: middle-click to close tab</li>
+		<li>added: full page zoom (if Safari4/WebKit nightly installed/in-use)</li>
+		<li>added: WebKit backspace key binding disabled (will be user pref in future build)</li>
+		<li>fixed: active tab doesn't reflect new page load in progress</li>
+		<li>fixed: can't select tab when clicking on favicon</li>
+		<li>fixed: drop placement in bookmark shelf isn't consistent</li>
+		<li>fixed: middle-click isn't recognized by bookmarks</li>
+		<li>fixed: bookmarklets that use cookies don't work</li>
+		<li>fixed: bookmarklets that use HTTP POST don't work</li>
+		<li>fixed: find panel doesn't always appear when called up</li>
+		</ul>
+		
+	<i>version 0.5.3w1</i><br />
+	<ul>
+	
+		<li>added: cookie server uses caching to reduce CPU load</li>
+		<li>added: cookie server now runs in its own thread</li>
+		<li>fixed: cookie server bugs and leaks</li>
+		<li>fixed: find overlay doesn't reset betwen page loads</li>
+		<li>fixed: find previous/next buttons are swapped</li>
+		<li>fixed: open home window on launch doesn't work if new windows are set to open blank pages</li>
+		</ul>
+</span>	
+	    
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-94422-5");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

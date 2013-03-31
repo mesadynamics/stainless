@@ -1,0 +1,11 @@
+"Today" = "Today";
+"Yesterday" = "Yesterday";
+"DaysAgo" = "Days Ago";
+"AllDays" = "All Days";
+"Fail" = "Error";
+"Stop" = "Stopped";
+
+"QuitTitle" = "Download In Progress";
+"QuitOK" = "Quit";
+"QuitCancel" = "Don't Quit";
+"QuitMessage" = "Files that are being downloaded will be deleted if you Quit now.  Are you sure you want to Quit?";

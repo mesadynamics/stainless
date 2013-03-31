@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		300A20730EA53757000321E7 /* StainlessApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 300A20720EA53757000321E7 /* StainlessApplication.m */; };
+		300A217E0EA61938000321E7 /* PrefsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 300A217D0EA61938000321E7 /* PrefsView.m */; };
+		3018D3410FB08DAC00A00A82 /* HistoryTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3018D3400FB08DAC00A00A82 /* HistoryTable.m */; };
+		301932D10F697468008FABCE /* StainlessCookieServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 301932D00F697468008FABCE /* StainlessCookieServer.m */; };
+		307997DA0F97B87C008A8964 /* StainlessAutoComplete.m in Sources */ = {isa = PBXBuildFile; fileRef = 307997D90F97B87C008A8964 /* StainlessAutoComplete.m */; };
+		30799C920F98E828008A8964 /* StainlessPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 30799C900F98E828008A8964 /* StainlessPanel.m */; };
+		308692490EEC6B8400B20889 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308692480EEC6B8400B20889 /* Carbon.framework */; };
+		309BBDCE0E6F1A6E003A8C32 /* StainlessController.m in Sources */ = {isa = PBXBuildFile; fileRef = 309BBDCD0E6F1A6E003A8C32 /* StainlessController.m */; };
+		309BBF230E6F2C42003A8C32 /* StainlessServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 309BBF220E6F2C42003A8C32 /* StainlessServer.m */; };
+		30A723101020D80800F3FD27 /* DownloadTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A7230E1020D80800F3FD27 /* DownloadTable.m */; };
+		30B5610B0F9E52B500F84261 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30B561090F9E52B500F84261 /* Localizable.strings */; };
+		30C6E7950E880356007B78A5 /* Stainless.icns in Resources */ = {isa = PBXBuildFile; fileRef = 30C6E7940E880356007B78A5 /* Stainless.icns */; };
+		30CE5C4F0F4C737B002E3D47 /* StainlessBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CE5C460F4C737B002E3D47 /* StainlessBridge.m */; };
+		30CE5C500F4C737B002E3D47 /* StainlessClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CE5C480F4C737B002E3D47 /* StainlessClient.m */; };
+		30CE5C510F4C737B002E3D47 /* StainlessCookieJar.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CE5C4A0F4C737B002E3D47 /* StainlessCookieJar.m */; };
+		30CE5C520F4C737B002E3D47 /* StainlessCookieStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CE5C4C0F4C737B002E3D47 /* StainlessCookieStorage.m */; };
+		30CE5C530F4C737B002E3D47 /* StainlessWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CE5C4E0F4C737B002E3D47 /* StainlessWindow.m */; };
+		30EF02C8105AA9DE00E3E415 /* Transformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EF02C7105AA9DE00E3E415 /* Transformers.m */; };
+		30F4E84A0F8527190093ED70 /* StainlessClient.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 309BC1830E7198F6003A8C32 /* StainlessClient.app */; };
+		30F4E8580F8527750093ED70 /* StainlessManager in CopyFiles */ = {isa = PBXBuildFile; fileRef = 30CE00E90F6210140012FADD /* StainlessManager */; };
+		30FFE6E70F967FBE008D6192 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FFE6E60F967FBE008D6192 /* WebKit.framework */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		30F4E8460F8527000093ED70 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Helpers;
+			dstSubfolderSpec = 1;
+			files = (
+				30F4E8580F8527750093ED70 /* StainlessManager in CopyFiles */,
+				30F4E84A0F8527190093ED70 /* StainlessClient.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		300A20710EA53757000321E7 /* StainlessApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StainlessApplication.h; sourceTree = "<group>"; };
+		300A20720EA53757000321E7 /* StainlessApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StainlessApplication.m; sourceTree = "<group>"; };
+		300A217C0EA61938000321E7 /* PrefsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefsView.h; sourceTree = "<group>"; };
+		300A217D0EA61938000321E7 /* PrefsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefsView.m; sourceTree = "<group>"; };
+		3018D33F0FB08DAC00A00A82 /* HistoryTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTable.h; sourceTree = "<group>"; };
+		3018D3400FB08DAC00A00A82 /* HistoryTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTable.m; sourceTree = "<group>"; };
+		301932CF0F697468008FABCE /* StainlessCookieServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StainlessCookieServer.h; sourceTree = "<group>"; };
+		301932D00F697468008FABCE /* StainlessCookieServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StainlessCookieServer.m; sourceTree = "<group>"; };
+		307997D80F97B87C008A8964 /* StainlessAutoComplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StainlessAutoComplete.h; sourceTree = "<group>"; };
+		307997D90F97B87C008A8964 /* StainlessAutoComplete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StainlessAutoComplete.m; sourceTree = "<group>"; };
+		30799C900F98E828008A8964 /* StainlessPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StainlessPanel.m; sourceTree = "<group>"; };
+		30799C910F98E828008A8964 /* StainlessPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StainlessPanel.h; sourceTree = "<group>"; };
+		308692480EEC6B8400B20889 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		309BBDCC0E6F1A6E003A8C32 /* StainlessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StainlessController.h; sourceTree = "<group>"; };
+		309BBDCD0E6F1A6E003A8C32 /* StainlessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StainlessController.m; sourceTree = "<group>"; };
+		309BBF210E6F2C42003A8C32 /* StainlessServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StainlessServer.h; sourceTree = "<group>"; };
+		309BBF220E6F2C42003A8C32 /* StainlessServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StainlessServer.m; sourceTree = "<group>"; };
+		309BC1830E7198F6003A8C32 /* StainlessClient.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = StainlessClient.app; path = ../StainlessClient/build/Release/StainlessClient.app; sourceTree = "<group>"; };
+		30A7230E1020D80800F3FD27 /* DownloadTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadTable.m; sourceTree = "<group>"; };
+		30A7230F1020D80800F3FD27 /* DownloadTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadTable.h; sourceTree = "<group>"; };
+		30B5610A0F9E52B500F84261 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		30C6E7940E880356007B78A5 /* Stainless.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Stainless.icns; sourceTree = "<group>"; };
+		30CE00E90F6210140012FADD /* StainlessManager */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = StainlessManager; path = ../StainlessManager/build/Release/StainlessManager; sourceTree = "<group>"; };
+		30CE5C450F4C737B002E3D47 /* StainlessBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StainlessBridge.h; sourceTree = "<group>"; };
+		30CE5C460F4C737B002E3D47 /* StainlessBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StainlessBridge.m; sourceTree = "<group>"; };
+		30CE5C470F4C737B002E3D47 /* StainlessClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StainlessClient.h; sourceTree = "<group>"; };
+		30CE5C480F4C737B002E3D47 /* StainlessClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StainlessClient.m; sourceTree = "<group>"; };
+		30CE5C490F4C737B002E3D47 /* StainlessCookieJar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StainlessCookieJar.h; sourceTree = "<group>"; };
+		30CE5C4A0F4C737B002E3D47 /* StainlessCookieJar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StainlessCookieJar.m; sourceTree = "<group>"; };
+		30CE5C4B0F4C737B002E3D47 /* StainlessCookieStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StainlessCookieStorage.h; sourceTree = "<group>"; };
+		30CE5C4C0F4C737B002E3D47 /* StainlessCookieStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StainlessCookieStorage.m; sourceTree = "<group>"; };
+		30CE5C4D0F4C737B002E3D47 /* StainlessWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StainlessWindow.h; sourceTree = "<group>"; };
+		30CE5C4E0F4C737B002E3D47 /* StainlessWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StainlessWindow.m; sourceTree = "<group>"; };
+		30DE7A500F51B50F00A5E255 /* CarbonHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonHelpers.h; sourceTree = "<group>"; };
+		30DE7A510F51B50F00A5E255 /* CGSAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSAccessibility.h; sourceTree = "<group>"; };
+		30DE7A520F51B50F00A5E255 /* CGSCIFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSCIFilter.h; sourceTree = "<group>"; };
+		30DE7A530F51B50F00A5E255 /* CGSConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSConnection.h; sourceTree = "<group>"; };
+		30DE7A540F51B50F00A5E255 /* CGSCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSCursor.h; sourceTree = "<group>"; };
+		30DE7A550F51B50F00A5E255 /* CGSDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSDebug.h; sourceTree = "<group>"; };
+		30DE7A560F51B50F00A5E255 /* CGSDisplays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSDisplays.h; sourceTree = "<group>"; };
+		30DE7A570F51B50F00A5E255 /* CGSHotKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSHotKeys.h; sourceTree = "<group>"; };
+		30DE7A580F51B50F00A5E255 /* CGSInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSInternal.h; sourceTree = "<group>"; };
+		30DE7A590F51B50F00A5E255 /* CGSMisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSMisc.h; sourceTree = "<group>"; };
+		30DE7A5A0F51B50F00A5E255 /* CGSNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSNotifications.h; sourceTree = "<group>"; };
+		30DE7A5B0F51B50F00A5E255 /* CGSRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSRegion.h; sourceTree = "<group>"; };
+		30DE7A5C0F51B50F00A5E255 /* CGSSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSSession.h; sourceTree = "<group>"; };
+		30DE7A5D0F51B50F00A5E255 /* CGSTransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSTransitions.h; sourceTree = "<group>"; };
+		30DE7A5E0F51B50F00A5E255 /* CGSWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSWindow.h; sourceTree = "<group>"; };
+		30DE7A5F0F51B50F00A5E255 /* CGSWorkspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSWorkspace.h; sourceTree = "<group>"; };
+		30EF02C6105AA9DE00E3E415 /* Transformers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transformers.h; sourceTree = "<group>"; };
+		30EF02C7105AA9DE00E3E415 /* Transformers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transformers.m; sourceTree = "<group>"; };
+		30FFE6E60F967FBE008D6192 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Stainless_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stainless_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Stainless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stainless.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				308692490EEC6B8400B20889 /* Carbon.framework in Frameworks */,
+				30FFE6E70F967FBE008D6192 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				30A7230F1020D80800F3FD27 /* DownloadTable.h */,
+				30A7230E1020D80800F3FD27 /* DownloadTable.m */,
+				3018D33F0FB08DAC00A00A82 /* HistoryTable.h */,
+				3018D3400FB08DAC00A00A82 /* HistoryTable.m */,
+				300A217C0EA61938000321E7 /* PrefsView.h */,
+				300A217D0EA61938000321E7 /* PrefsView.m */,
+				300A20710EA53757000321E7 /* StainlessApplication.h */,
+				300A20720EA53757000321E7 /* StainlessApplication.m */,
+				307997D80F97B87C008A8964 /* StainlessAutoComplete.h */,
+				307997D90F97B87C008A8964 /* StainlessAutoComplete.m */,
+				309BBDCC0E6F1A6E003A8C32 /* StainlessController.h */,
+				309BBDCD0E6F1A6E003A8C32 /* StainlessController.m */,
+				30799C910F98E828008A8964 /* StainlessPanel.h */,
+				30799C900F98E828008A8964 /* StainlessPanel.m */,
+				309BBF210E6F2C42003A8C32 /* StainlessServer.h */,
+				309BBF220E6F2C42003A8C32 /* StainlessServer.m */,
+				301932CF0F697468008FABCE /* StainlessCookieServer.h */,
+				301932D00F697468008FABCE /* StainlessCookieServer.m */,
+				30EF02C6105AA9DE00E3E415 /* Transformers.h */,
+				30EF02C7105AA9DE00E3E415 /* Transformers.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				308692480EEC6B8400B20889 /* Carbon.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30FFE6E60F967FBE008D6192 /* WebKit.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Stainless.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Stainless */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Stainless;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				30DE7A4F0F51B50F00A5E255 /* CGSInternal */,
+				30CE5C440F4C737B002E3D47 /* StainlessCore */,
+				32CA4F630368D1EE00C91783 /* Stainless_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30C6E7940E880356007B78A5 /* Stainless.icns */,
+				30CE00E90F6210140012FADD /* StainlessManager */,
+				309BC1830E7198F6003A8C32 /* StainlessClient.app */,
+				30B561090F9E52B500F84261 /* Localizable.strings */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30CE5C440F4C737B002E3D47 /* StainlessCore */ = {
+			isa = PBXGroup;
+			children = (
+				30CE5C450F4C737B002E3D47 /* StainlessBridge.h */,
+				30CE5C460F4C737B002E3D47 /* StainlessBridge.m */,
+				30CE5C470F4C737B002E3D47 /* StainlessClient.h */,
+				30CE5C480F4C737B002E3D47 /* StainlessClient.m */,
+				30CE5C490F4C737B002E3D47 /* StainlessCookieJar.h */,
+				30CE5C4A0F4C737B002E3D47 /* StainlessCookieJar.m */,
+				30CE5C4B0F4C737B002E3D47 /* StainlessCookieStorage.h */,
+				30CE5C4C0F4C737B002E3D47 /* StainlessCookieStorage.m */,
+				30CE5C4D0F4C737B002E3D47 /* StainlessWindow.h */,
+				30CE5C4E0F4C737B002E3D47 /* StainlessWindow.m */,
+			);
+			name = StainlessCore;
+			path = ../StainlessCore;
+			sourceTree = "<group>";
+		};
+		30DE7A4F0F51B50F00A5E255 /* CGSInternal */ = {
+			isa = PBXGroup;
+			children = (
+				30DE7A500F51B50F00A5E255 /* CarbonHelpers.h */,
+				30DE7A510F51B50F00A5E255 /* CGSAccessibility.h */,
+				30DE7A520F51B50F00A5E255 /* CGSCIFilter.h */,
+				30DE7A530F51B50F00A5E255 /* CGSConnection.h */,
+				30DE7A540F51B50F00A5E255 /* CGSCursor.h */,
+				30DE7A550F51B50F00A5E255 /* CGSDebug.h */,
+				30DE7A560F51B50F00A5E255 /* CGSDisplays.h */,
+				30DE7A570F51B50F00A5E255 /* CGSHotKeys.h */,
+				30DE7A580F51B50F00A5E255 /* CGSInternal.h */,
+				30DE7A590F51B50F00A5E255 /* CGSMisc.h */,
+				30DE7A5A0F51B50F00A5E255 /* CGSNotifications.h */,
+				30DE7A5B0F51B50F00A5E255 /* CGSRegion.h */,
+				30DE7A5C0F51B50F00A5E255 /* CGSSession.h */,
+				30DE7A5D0F51B50F00A5E255 /* CGSTransitions.h */,
+				30DE7A5E0F51B50F00A5E255 /* CGSWindow.h */,
+				30DE7A5F0F51B50F00A5E255 /* CGSWorkspace.h */,
+			);
+			name = CGSInternal;
+			path = "../../Third-Party/alacatialabs/CGSInternal";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Stainless */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Stainless" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				30F4E8460F8527000093ED70 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stainless;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Stainless;
+			productReference = 8D1107320486CEB800E47090 /* Stainless.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Stainless" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Stainless */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Stainless */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				30C6E7950E880356007B78A5 /* Stainless.icns in Resources */,
+				30B5610B0F9E52B500F84261 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				309BBDCE0E6F1A6E003A8C32 /* StainlessController.m in Sources */,
+				309BBF230E6F2C42003A8C32 /* StainlessServer.m in Sources */,
+				300A20730EA53757000321E7 /* StainlessApplication.m in Sources */,
+				300A217E0EA61938000321E7 /* PrefsView.m in Sources */,
+				30CE5C4F0F4C737B002E3D47 /* StainlessBridge.m in Sources */,
+				30CE5C500F4C737B002E3D47 /* StainlessClient.m in Sources */,
+				30CE5C510F4C737B002E3D47 /* StainlessCookieJar.m in Sources */,
+				30CE5C520F4C737B002E3D47 /* StainlessCookieStorage.m in Sources */,
+				30CE5C530F4C737B002E3D47 /* StainlessWindow.m in Sources */,
+				301932D10F697468008FABCE /* StainlessCookieServer.m in Sources */,
+				307997DA0F97B87C008A8964 /* StainlessAutoComplete.m in Sources */,
+				30799C920F98E828008A8964 /* StainlessPanel.m in Sources */,
+				3018D3410FB08DAC00A00A82 /* HistoryTable.m in Sources */,
+				30A723101020D80800F3FD27 /* DownloadTable.m in Sources */,
+				30EF02C8105AA9DE00E3E415 /* Transformers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		30B561090F9E52B500F84261 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30B5610A0F9E52B500F84261 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Third-Party/trunk/build/Release\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Stainless_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Stainless;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Third-Party/trunk/build/Release\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Stainless_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Stainless;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Stainless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Stainless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
