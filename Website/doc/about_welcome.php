@@ -16,7 +16,7 @@ Welcome to Stainless</span></div>
 <div style="padding:10px">
 	<span style="font-family: 'LucidaGrande', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 12px;">
 
-<p>Thanks for downloading <a href="http://www.stainlessapp.com">Stainless</a>:  a multi-process browser for OS X.</p>
+<p>Thanks for downloading <a href="http://www.stainlessapp.com">Stainless</a>, a multi-process browser alternative to Google Chrome.</p>
 
 <p>Each tab in Stainless runs independently in a separate process, which means:<br/>
 <ul>
@@ -24,12 +24,11 @@ Welcome to Stainless</span></div>
 </li><br /><li>Increased stability.<br /> <i>Crashed pages can't bring down the browser or other tabs.</i></li>
 <br /><li>Decreased memory usage.<br /> <i>Once a tab is closed, the memory for that session is completely freed to the system.</i></li></ul></p>
 
-	<p>Stainless started out as a technology demo to showcase my own multi-processing architecture in response to Google Chrome (Stainless 0.1 was released three weeks after Google released Chrome for Windows). Sensing an opportunity and inspired by a growing fanbase, I decided to craft Stainless into a full-fledged browser and work on features that I hadn't seen before in other browsers. </p>
-	<p>A prime example is <i>parallel sessions</i>, which allow you to log into a site using different credentials in separate tabs at the same time.  This new technology is woven throughout Stainless, from the private cookie storage system, to <i>session-aware</i> bookmarks that remember the session in which they were saved.  I still believe this is a true browser innovation, and I'd love to see this implemented in Chrome.  You can check it out by selecting <i>New Single Session Tab</i> from the File menu.</p>
-	<p>Please note that Stainless is no longer in development and thus will likely will never have all the features you'd find in a production-ready browser. But as I've promised to many a fan, I will be soon releasing all the source code on GitHub under the MIT license.</p>
+	<p>Stainless started out as a technology demo to showcase my own multi-processing architecture in response to Google Chrome (Stainless 0.1 was released three weeks after Google released Chrome for Windows). Sensing an opportunity and inspired by a growing fanbase, I decided to craft Stainless into a full-fledged browser and work on features that I hadn't seen before in other browsers.</p>
+	<p>A prime example is <i>parallel sessions</i>, which allow you to log into a site using different credentials in separate tabs at the same time. This new technology is woven throughout Stainless, from the private cookie storage system, to <i>session-aware bookmarks</i> that remember the session in which they were saved. I still believe this is a true browser innovation (and I'd love to see this implemented in Chrome).
+	 You can check it out by selecting <i>New Single Session Tab</i> from the File menu.</p>
+	<p>Regrettably, over the past couple of years it's been impossible for me to keep working on Stainless and thus the <a href="https://github.com/mesadynamics/stainless">source code</a> for Stainless is now available under the MIT License for those who might be interested in continuing the project.</p>
 	
-	<p>If you'd like to get in touch please feel free to follow me on <a href="http://www.twitter.com/dannyjespinoza">twitter</a>.  Thanks!</p>
-
 </span>	
 </div>
 
