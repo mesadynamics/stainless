@@ -16,17 +16,16 @@ Release Notes</span></div>
 <div style="padding:10px">
 	<span style="font-family: 'LucidaGrande', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 12px;">
 
-	<p>
-	<b>Note: if you cannot move favicon bookmarks up in a bookmark shelf, please re-download version 0.8.  The first posted version on 7/25/11 had debug code enabled which broke this feature.  Thanks!</b></i></p>
-
 	<i>known issues</i><br />
 	<ul>
 		<li>switching to Stainless from Expose does not update the menubar</li>
 		<li>minimizing Stainless windows to dock does not work </li>
 		<li>windows take a while to close on Stainless quit</li>	
+		<li>Stainless is not compatible running in separate Mission Control desktop spaces</li>
+		<li>on some systems, a recent WebKit update (via Safari) causes text fields to have a black background</li>
 	</ul>
 
-	<i>version 0.8 (07/25/11, current release)</i><br />
+	<i>version 0.8 (07/25/11, final official release)</i><br />
 	<ul>
 	<li>new: <b>Lion compatibility</b></li>
 	<li>new: 64-bit build</li>
