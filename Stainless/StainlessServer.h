@@ -91,6 +91,7 @@ enum {
 
 	BOOL webHistoryCanRecordVisits;
 	BOOL webHistoryCanControlVisitCount;
+	BOOL webHistoryHasVisitCount;
 }
 
 @property(nonatomic, retain) NSString* ignoreHistory;
