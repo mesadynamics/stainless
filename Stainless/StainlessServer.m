@@ -2110,7 +2110,7 @@ void processNotificationCallback(CGSNotificationType type, void* data, unsigned 
 		
 		if(webHistoryCanRecordVisits)
 			[entry _recordInitialVisit];
-		else
+		else if(webHistoryCanControlVisitCount)
 			[entry setVisitCount:1];
 			
 		[clientHistory addItems:[NSArray arrayWithObject:entry]];
