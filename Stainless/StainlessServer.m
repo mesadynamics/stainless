@@ -182,6 +182,7 @@ void processNotificationCallback(CGSNotificationType type, void* data, unsigned 
 
 	webHistoryCanRecordVisits = NO;
 	webHistoryCanControlVisitCount = NO;
+	webHistoryHasVisitCount = NO;
 	
 	WebHistoryItem* entry = [[WebHistoryItem alloc] initWithURLString:@"" title:@"" lastVisitedTimeInterval:[NSDate timeIntervalSinceReferenceDate]];
 	if([entry respondsToSelector:@selector(_recordInitialVisit)]) {
@@ -192,6 +193,8 @@ void processNotificationCallback(CGSNotificationType type, void* data, unsigned 
 		else if([entry respondsToSelector:@selector(_visitedWithTitle:)])
 			webHistoryCanRecordVisits = YES;
 	}
+	if([entry respondsToSelector:@selector(visitCount)])
+		webHistoryHasVisitCount = YES;
 	[entry release];
 		
 	[self refreshHistory];
@@ -2110,7 +2113,7 @@ void processNotificationCallback(CGSNotificationType type, void* data, unsigned 
 		
 		if(webHistoryCanRecordVisits)
 			[entry _recordInitialVisit];
-		else if(webHistoryCanControlVisitCount)
+		else if(webHistoryHasVisitCount)
 			[entry setVisitCount:1];
 			
 		[clientHistory addItems:[NSArray arrayWithObject:entry]];
@@ -2248,7 +2251,8 @@ void processNotificationCallback(CGSNotificationType type, void* data, unsigned 
 		[searchComplete swap];
 		
 		NSMutableArray* matches = [searchComplete arrayOfDataMatchingString:urlString];
-		[matches sortUsingSelector:@selector(visitCountCompare:)];
+		if(webHistoryHasVisitCount)
+			[matches sortUsingSelector:@selector(visitCountCompare:)];
 		for(WebHistoryItem* item in matches) {
 			NSString* alternateTitle = [item alternateTitle];
 			if(alternateTitle) {
@@ -2273,7 +2277,8 @@ void processNotificationCallback(CGSNotificationType type, void* data, unsigned 
 			completion = [NSMutableArray arrayWithCapacity:maxCount];
 		
 		NSMutableArray* matches = [urlComplete arrayOfDataMatchingString:urlString];
-		[matches sortUsingSelector:@selector(visitCountCompare:)];
+		if(webHistoryHasVisitCount)
+			[matches sortUsingSelector:@selector(visitCountCompare:)];
 		for(WebHistoryItem* item in matches) {
 			NSString* itemURLString = [item URLString];
 			
